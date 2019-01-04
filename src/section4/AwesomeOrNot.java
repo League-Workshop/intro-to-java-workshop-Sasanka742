@@ -5,8 +5,13 @@ import java.util.Random;
 public class AwesomeOrNot {
 
 	// 1. Make a main method that includes all the steps below…
-
-	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
+	public static void main(String[] args) {
+		Random num = new Random();
+		num.nextInt(4);
+		System.out.println(num);
+	}
+	// 2. Make a variable that will hold a random number and put a random number
+	// into this variable using "new Random().nextInt(4)"
 
 	// 3. Print out this variable
 
@@ -29,5 +34,3 @@ public class AwesomeOrNot {
 	// -- write your own answer
 
 }
-
-
